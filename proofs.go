@@ -82,6 +82,7 @@ func (s *SortedPublicSectorInfo) UnmarshalJSON(b []byte) error {
 type PublicSectorInfo struct {
 	SectorID uint64
 	CommR    [CommitmentBytesLen]byte
+	WorkerDir string
 }
 
 // NewSortedPrivateSectorInfo returns a SortedPrivateSectorInfo
