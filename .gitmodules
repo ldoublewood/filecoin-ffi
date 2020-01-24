@@ -1,0 +1,3 @@
+[submodule "rust/extern/rust-fil-proofs"]
+	path = rust/extern/rust-fil-proofs
+	url = ../rust-fil-proofs
