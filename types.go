@@ -129,6 +129,7 @@ type Candidate struct {
 type PublicSectorInfo struct {
 	SectorID uint64
 	CommR    [CommitmentBytesLen]byte
+	WorkerDir string
 }
 
 type PrivateSectorInfo struct {
