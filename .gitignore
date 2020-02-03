@@ -6,3 +6,4 @@
 *.a
 .install-filecoin
 **/paramcache
+rust/.idea
