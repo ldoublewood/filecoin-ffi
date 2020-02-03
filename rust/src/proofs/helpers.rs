@@ -175,7 +175,7 @@ pub unsafe fn to_private_replica_info_map(
                 replica_path,
                 sector_id,
             } = info;
-            info!("info: {}, sector_id: {}", replica_path, sector_id);
+            info!("replica_path: {}, cache_dir_path: {:?}, sector_id: {}", replica_path, cache_dir_path, sector_id);
 
             filecoin_proofs::PrivateReplicaInfo::new(replica_path, comm_r, cache_dir_path)
                 .with_context(|| {
