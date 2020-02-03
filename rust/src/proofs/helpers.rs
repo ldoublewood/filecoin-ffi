@@ -1,6 +1,6 @@
 use std::collections::btree_map::BTreeMap;
 use std::slice::from_raw_parts;
-
+use log::info;
 use anyhow::{Context, Result};
 use ffi_toolkit::{c_str_to_pbuf, c_str_to_rust_str};
 use filecoin_proofs::{constants as api_constants, Commitment, PublicReplicaInfo};
@@ -175,6 +175,7 @@ pub unsafe fn to_private_replica_info_map(
                 replica_path,
                 sector_id,
             } = info;
+            info!("info: {}", replica_path);
 
             filecoin_proofs::PrivateReplicaInfo::new(replica_path, comm_r, cache_dir_path)
                 .with_context(|| {
