@@ -2458,8 +2458,6 @@ dependencies = [
 [[package]]
 name = "storage-proofs-post"
 version = "4.0.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d52febf7743a46df331ddebcfbaa04c4ca2236ee87797a54509d330a195e01f9"
 dependencies = [
  "anyhow",
  "bellperson",
