@@ -828,8 +828,6 @@ dependencies = [
 [[package]]
 name = "filecoin-proofs"
 version = "5.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "075182dd061c15f073b12b6da8da1567c73c92f1fb47ce89483555f470f468be"
 dependencies = [
  "anyhow",
  "bellperson",
@@ -879,8 +877,6 @@ dependencies = [
 [[package]]
 name = "filecoin-proofs-api"
 version = "5.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1d0c9eb46a1153faa046b8b79164de608c42214328020d2ecb7570ad5e3943e2"
 dependencies = [
  "anyhow",
  "filecoin-proofs",
@@ -2333,8 +2329,6 @@ dependencies = [
 [[package]]
 name = "sha2raw"
 version = "2.0.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "57da614e847c49a01979ffa0d9a030d983c4bb6e78a13ff20203a0169deeff42"
 dependencies = [
  "block-buffer 0.7.3",
  "cpuid-bool",
@@ -2389,8 +2383,6 @@ checksum = "a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f"
 [[package]]
 name = "storage-proofs"
 version = "5.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dacff28760e64f21009d16803e1840876e20a76322b2f56c255712a6bb652523"
 dependencies = [
  "storage-proofs-core",
  "storage-proofs-porep",
@@ -2400,8 +2392,6 @@ dependencies = [
 [[package]]
 name = "storage-proofs-core"
 version = "5.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5c3d9165ae256c4c82b58d04996e46d8d5976a596392ead18e0f131b0697bbd2"
 dependencies = [
  "aes",
  "anyhow",
@@ -2438,8 +2428,6 @@ dependencies = [
 [[package]]
 name = "storage-proofs-porep"
 version = "5.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "29fd93022d94a1bbe5c937b13b88aed93803f742530511fe975f9c36ff4d0e53"
 dependencies = [
  "anyhow",
  "bellperson",
@@ -2469,8 +2457,6 @@ dependencies = [
 [[package]]
 name = "storage-proofs-post"
 version = "5.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7edc401b97424db9b26c63900439aca54241b65376f4b169d86eac6a77ace455"
 dependencies = [
  "anyhow",
  "bellperson",
