@@ -827,7 +827,7 @@ dependencies = [
 
 [[package]]
 name = "filecoin-proofs"
-version = "5.1.1"
+version = "5.0.0"
 dependencies = [
  "anyhow",
  "bellperson",
@@ -876,7 +876,7 @@ dependencies = [
 
 [[package]]
 name = "filecoin-proofs-api"
-version = "5.1.0"
+version = "5.0.0"
 dependencies = [
  "anyhow",
  "filecoin-proofs",
@@ -1792,9 +1792,9 @@ checksum = "d4fd5641d01c8f18a23da7b6fe29298ff4b55afcccdf78973b24cf3175fee32e"
 
 [[package]]
 name = "phase21"
-version = "0.8.0"
+version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b0f11d2cea752b0c881f90b7c19208af1d08bb6d4e7cebe97c98af5ed0e3cd57"
+checksum = "0ee67989a99ba3c652ac7c680a7de68c25fc9303fe5fb9d65d73a3c4e2516236"
 dependencies = [
  "bellperson",
  "blake2b_simd",
@@ -2382,7 +2382,7 @@ checksum = "a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f"
 
 [[package]]
 name = "storage-proofs"
-version = "5.1.1"
+version = "5.0.0"
 dependencies = [
  "storage-proofs-core",
  "storage-proofs-porep",
@@ -2391,7 +2391,7 @@ dependencies = [
 
 [[package]]
 name = "storage-proofs-core"
-version = "5.1.1"
+version = "5.0.0"
 dependencies = [
  "aes",
  "anyhow",
@@ -2427,7 +2427,7 @@ dependencies = [
 
 [[package]]
 name = "storage-proofs-porep"
-version = "5.1.1"
+version = "5.0.0"
 dependencies = [
  "anyhow",
  "bellperson",
@@ -2456,7 +2456,7 @@ dependencies = [
 
 [[package]]
 name = "storage-proofs-post"
-version = "5.1.1"
+version = "5.0.0"
 dependencies = [
  "anyhow",
  "bellperson",
